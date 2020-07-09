@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+
+<head>
+  <link rel="icon" href="logo/LOGO.JPG"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pop Confeitaria</title>
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+<header>
+  <nav>
+    <ul class="topnav">
+
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">QUEM SOMOS</a></li>
+      <li><a href="#">CARDÁPIO</a></li>
+      <li><a href="#">BLOG</a></li>
+      <li><a href="#">CONTATO</a></li>
+      <li class="icon">
+        <a href="javascript:void(0);" onclick="myFunction()">&#9776;
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="logo">
+    <div class="logo1">
+      <img src="logo/LOGO.JPG" alt="logo">
+    </div>
+
+    <div class="logo2">
+      <img src="banners/b1.png" alt="banners">
+    </div>
+  </div>
+
+</header>
+
+
+  <script>
+    function myFunction() {
+      document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+    }
+
+  </script>
+</body>
+
+</html>
